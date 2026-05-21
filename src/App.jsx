@@ -17,9 +17,9 @@ function App() {
         <>
                 <StrictMode>
                         <BrowserRouter>
-                                <div className="d-flex">
+                                <div className="d-flex overflow-hidden vh-100">
                                         <Sidebar/>
-                                        <div className="flex-grow-1">
+                                        <div className="routes d-flex flex-grow-1 flex-column overflow-hidden h-100">
                                                 <Routes>
                                                         <Route path="/" element={<Dashboard></Dashboard>}></Route>
                                                         <Route path="/Board" element={<Board></Board>}></Route>

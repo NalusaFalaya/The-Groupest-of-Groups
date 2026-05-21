@@ -1,7 +1,15 @@
+body{
+    background-color: #080C16 !important;
+    overflow-y: hidden;
+}
 .sidebar{
     background-color: #0D1321;
     width: 16rem;
+    height: 100%;
     border: 0.1rem solid #1D2435;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    flex-shrink: 0;
 }
 
 .title{
@@ -39,6 +47,7 @@ ul{
 hr{
     background-color: #1D2435;
     height: 0.1rem;
+    opacity: 1 !important;
 }
 
 img{
@@ -47,9 +56,14 @@ img{
     border-radius: 50%;
 }
 
-.material-icons{
-    font-size: 1rem;
+.material-symbols-outlined{
+    font-size: 1.2rem;
     color: #758884;
+    font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
 }
 
 a:link{

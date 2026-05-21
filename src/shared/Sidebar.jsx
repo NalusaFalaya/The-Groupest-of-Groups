@@ -11,12 +11,12 @@ import './Sidebar.css'
 function Sidebar() {
     return(
         <>
-            <div className="d-flex flex-column justify-content-between sidebar min-vh-100">
+            <div className="d-flex flex-column justify-content-between sidebar h-100">
                 
                 <div>
                     <div className="d-flex align-items-center text-light m-3 mb-0">
                         <div className="bolt-bg mx-2">
-                            <span className="material-icons text-dark">bolt</span>
+                            <span className="material-symbols-outlined text-dark">bolt</span>
                         </div>
                         <div>
                             <h5 className="text-light mb-0 mt-2 title">AI-Sprint</h5>
@@ -27,31 +27,31 @@ function Sidebar() {
                     <ul className="d-flex flex-column gap-3 ps-3">
                         <Link to="/">
                             <div className="buttons">
-                                <span className="material-icons" >dashboard</span>
+                                <span className="material-symbols-outlined" >dashboard</span>
                                 <span>Dashboard</span>
                             </div>
                         </Link>
                         <Link to="/board">
                             <div className="buttons">
-                                <span className="material-icons">view_kanban</span>
+                                <span className="material-symbols-outlined">view_kanban</span>
                                 <span>Board</span>
                             </div>
                         </Link>
                         <Link to="/ai">
                             <div className="buttons">
-                            <span className="material-icons">star_rate</span>
+                            <span className="material-symbols-outlined">star_shine</span>
                             <span>AI Generate</span>
                             </div>
                         </Link>
                         <Link to="/team">
                             <div className="buttons">
-                                <span className="material-icons">group</span>
+                                <span className="material-symbols-outlined">group</span>
                                 <span>Team</span>
                             </div>
                         </Link>
                         <Link to="/settings">
                             <div className="buttons">
-                                <span className="material-icons">settings</span>
+                                <span className="material-symbols-outlined">settings</span>
                                 <span>Settings</span>
                             </div>
                         </Link>
@@ -61,7 +61,7 @@ function Sidebar() {
                     <hr />
                     <div className="ps-3">
                         <div className="buttons">
-                        <span className="material-icons">wb_sunny</span>
+                        <span className="material-symbols-outlined">wb_sunny</span>
                             <span>Light Mode</span>
                         </div>
                     </div>
@@ -70,7 +70,7 @@ function Sidebar() {
                             <img src={ placeholder} alt="" />
                             <span className="text-light mx-2">example@gmail.com</span>
                         </div>
-                        <span className="material-icons mb-2">exit_to_app</span>
+                        <span className="material-symbols-outlined mb-2">exit_to_app</span>
                     </div>
                 </div>
 
