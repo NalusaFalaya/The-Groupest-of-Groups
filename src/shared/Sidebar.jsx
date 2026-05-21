@@ -11,7 +11,7 @@ import './Sidebar.css'
 function Sidebar() {
     return(
         <>
-            <div className="d-flex flex-column justify-content-between sidebar min-vh-100">
+            <div className="d-flex flex-column justify-content-between sidebar h-100">
                 
                 <div>
                     <div className="d-flex align-items-center text-light m-3 mb-0">
@@ -39,7 +39,7 @@ function Sidebar() {
                         </Link>
                         <Link to="/ai">
                             <div className="buttons">
-                            <span className="material-symbols-outlined">star_rate</span>
+                            <span className="material-symbols-outlined">star_shine</span>
                             <span>AI Generate</span>
                             </div>
                         </Link>

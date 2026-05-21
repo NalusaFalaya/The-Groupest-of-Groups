@@ -1,3 +1,6 @@
+.ai{
+    min-height: 0;
+}
 .new-chat{
     background-color: #3C82F3;
     border: none;
@@ -5,7 +8,10 @@
 }
 .chat-sidebar{
     background-color: #0C111E;
-
+    width: 21rem;
+    border-right: 2px solid #1D2435;
+    overflow-y: auto;
+    min-height: 0;
 }
 .toggle-panel{
     background-color: transparent;
@@ -29,7 +35,7 @@
 }
 .search{
     background-color: #080C16;
-    width: 80%;
+    width: 88%;
     border: 2px solid #121825;
     outline: none;
 }
@@ -47,4 +53,87 @@
 }
 .search-bar::placeholder{
     color: #758884 !important
+}
+.recent{
+    color: #758884 !important;
+    font-size: .8rem
+}
+.no-chats{
+    color: #758884 !important;
+    font-size: 0.75rem;
+}
+nav{
+    background-color: #0C111E;
+    border-bottom: 2px solid #1D2435; 
+}
+.ai-icon{
+    color: #3C83F6 !important;
+}
+.dropdown-menu{
+    background-color: #0C111E !important;
+}
+.dropdown-item{
+    color: white !important;
+    border-radius: .4rem !important;
+    text-align: center !important;
+    padding: 0.3rem 2rem !important;
+}
+.dropdown-item:hover{
+    background-color: #10B77F !important; 
+    color: black !important;
+}
+.agent-icon-bg{
+    background-color: transparent;
+    background-image: linear-gradient(to bottom right, rgb(60, 130, 243), rgba(60, 131, 246, 0.6));
+    width: 4rem;
+    aspect-ratio: 1;
+    border-radius: 1rem;
+    margin-top: 6rem;
+}
+.agent-icon{
+    font-size: 2rem !important;
+    font-variation-settings:
+  'FILL' 0,
+  'wght' 700,
+  'GRAD' 0,
+  'opsz' 24 !important;
+}
+.agent-subtext{
+    color: #758884 !important;
+    width: 40%;
+}
+.chat-bg{
+    background-color: #0A0F1A;
+    height: 8rem;
+    border-top: 2px solid #1D2435;
+}
+.main{
+    flex: 1;
+    min-height: 0;
+    display: flex;        
+    flex-direction: column;
+    overflow: hidden;     
+}
+.chat{
+    background-color: #0D1321;
+    width: 80%;
+    height: 4rem;
+    border: 2px solid #121825;
+    outline: none;
+    box-sizing: border-box;
+}
+.chat:focus-within{
+    outline: #3C83F6 solid 2px;  
+}
+.message-window{
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto; 
+}
+.right-section{
+    flex: 1;
+    min-height: 0;
+    display: flex;        
+    flex-direction: column;
+    overflow: hidden;     
 }
